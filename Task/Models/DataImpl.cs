@@ -18,6 +18,9 @@ namespace Task.Util
 
         public int GetDigits()
         {
+            if (digits == 0) {
+                return 2;
+            }
             return digits;
         }
 
