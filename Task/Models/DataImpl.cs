@@ -7,7 +7,7 @@ namespace Task.Util
     {
 
         private List<double> list;
-        private int digits = 2;
+        private int digits;
 
         public DataImpl(List<double> List, int Digits)
         {
